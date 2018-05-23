@@ -1,10 +1,11 @@
 package jwt_test
 
 import (
-	"github.com/dgrijalva/jwt-go"
 	"io/ioutil"
 	"strings"
 	"testing"
+
+	jwt "github.com/vladimiroff/jwt-go/v3"
 )
 
 var rsaTestData = []struct {

@@ -7,8 +7,6 @@ import (
 	"bytes"
 	"crypto/rsa"
 	"fmt"
-	"github.com/dgrijalva/jwt-go"
-	"github.com/dgrijalva/jwt-go/request"
 	"io"
 	"io/ioutil"
 	"log"
@@ -17,6 +15,9 @@ import (
 	"net/url"
 	"strings"
 	"time"
+
+	jwt "github.com/vladimiroff/jwt-go/v3"
+	"github.com/vladimiroff/jwt-go/v3/request"
 )
 
 // location of the files used for signing and verification
